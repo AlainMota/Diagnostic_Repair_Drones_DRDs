@@ -1,7 +1,6 @@
 ## Diagnostic_Repair_Drones_DRDs
 
-## Remove Atalhos
-![Logo of the project](https://github.com/AlainMota/readme_images/blob/main/remove.png)
+![Logo of the project]()
 
 Este protótipo tem por objetivo testar a aplicação do Machine learning em um robo com rodas autonomo. 
 
@@ -37,7 +36,7 @@ Projeto de software descontinuado.
 
 ## Interface
 
-![interface](https://github.com/AlainMota/readme_images/blob/main/designe_remove.png)
+![interface]()
 
 
 ## Recursos
