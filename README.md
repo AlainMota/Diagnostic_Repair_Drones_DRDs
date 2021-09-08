@@ -1,6 +1,6 @@
 ## Diagnostic_Repair_Drones_DRDs
 
-![Logo of the project]()
+![Logo of the project](https://github.com/AlainMota/readme_images/blob/main/perfil_drd.jpg)
 
 Este protótipo tem por objetivo testar a aplicação do Machine learning em um robo com rodas autonomo. 
 
