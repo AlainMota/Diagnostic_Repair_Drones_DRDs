@@ -1,8 +1,8 @@
 ## Diagnostic_Repair_Drones_DRDs
 
-<img align="right" width="400" height="400" src="https://github.com/AlainMota/readme_images/blob/main/perfil_drd.jpg">
+<img align="right" width="300" height="300" src="https://github.com/AlainMota/readme_images/blob/main/perfil_drd.jpg">
 
-Este protótipo tem por objetivo testar a aplicação do Machine learning em um robo com rodas autonomo. 
+Este protótipo tem por objetivo testar a aplicação do Machine Learning em um robô com rodas, para testar a viabilidade do desenvolvimento de robôs autônomos de diagnóstico e manutenções. 
 
 ## Tecnologia 
 
