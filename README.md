@@ -31,29 +31,13 @@ Aqui estão as tecnologias utilizadas neste projeto.
 * CI 7404
 * Motores Dc entre outros
 
-## Situação do Projeto
-Projeto de software descontinuado.
-
-## Interface
-
-![interface]()
-
-
-## Recursos
-
-  - Remove o vírus com extensão .vbs.
-  - Remove os atalhos criado no pendrive.
-  - Desoculta os arquivos originais.
-
-
 ## Links
 
-  - Link da aplicação desenvolvida: https://github.com/AlainMota/Remove-Atalhos/blob/main/REMOVE_2.0.jar
-  - Repository: https://github.com/AlainMota/Remove-Atalhos
+  - Repository: https://github.com/AlainMota/Diagnostic_Repair_Drones_DRDs
    
 ## Controle de versão
 
-* 2.0.0.0
+* 1.0.0.0
 
 
 ## Autor
