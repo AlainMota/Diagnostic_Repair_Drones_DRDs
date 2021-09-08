@@ -1,4 +1,4 @@
-## Diagnostic_Repair_Drones_DRDs
+## Diagnostic Repair Drones - DRDs
 
 <img align="right" width="300" height="300" src="https://github.com/AlainMota/readme_images/blob/main/perfil_drd.jpg">
 
