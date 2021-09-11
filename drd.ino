@@ -72,13 +72,8 @@ void loop() {
   receptor();
   
   transmissaoDados();
-  //movimento(); 
- 
-}//fim de loop
 
-void movimento(){
- 
-}//Fim de Movimento
+}//fim de loop
 
 void receptor(){
     int direcDiant;
@@ -105,7 +100,6 @@ void receptor(){
     motorTraseiro (direcTras, velocTras);
      
   }//fim de receptor
-
   
 void transmissaoDados(){
   tempo = millis();
@@ -143,7 +137,9 @@ int LDR2 (){
 
 void motorDianteiro ( int direcao, int velocidade){
   valorDianteiro = digitalRead(botaoDianteiro);
-  if (valorDianteiro = 1){
+  if(temperaturaL293D () > 85){
+    analogWrite(velocidade_Dianteiro, 0);
+  }else if (valorDianteiro = 1){ //quando o valor for zero o botao esta pressionado
     digitalWrite(direcao_Dianteiro, direcao);
     analogWrite(velocidade_Dianteiro, velocidade);
   }else {
@@ -198,7 +194,7 @@ void motorTraseiro (int direcao, int velocidade){
         }
       }//fim de while
       
-  if ((valorTraseiroInicial < 60 || valorTraseiroFinal < 60) || (valorTraseiroInicial > 100 || valorTraseiroFinal > 100)) {
+  if ((valorTraseiroInicial < 60 || valorTraseiroFinal < 60) || (valorTraseiroInicial > 100 || valorTraseiroFinal > 100) || (temperaturaL293D () > 85)){
     movimento = false;
     analogWrite(velocidade_Traseiro, 0);
   }
